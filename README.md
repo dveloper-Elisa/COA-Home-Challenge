@@ -25,3 +25,37 @@ Given an array of integers and a target sum, determine if there exists a contigu
 const arr = [4, 2, 7, 1, 9, 5];
 const target = 17;
 console.log(hasContiguousSubarraySum(arr, target)); // Here Output is : true
+```
+
+##### Run the arrayMap.js by the following steps:
+
+i. open terminal in your code editor within `Challenges` folder
+```linux
+    node arrayMap.js
+```
+
+
+### 2. String Transformation
+
+File: `Challenges/stringTransform.js`
+
+**Problem Statement**:
+iven a string, transform it based on the following rules:
+
+If the length of the string is divisible by 3, reverse the entire string.
+If the length of the string is divisible by 5, replace each character with its ASCII code.
+If the length of the string is divisible by both 3 and 5 (i.e., divisible by 15), perform both operations in the order specified above.
+
+**Example**
+```javascript
+console.log(transformString("Hamburger")); // Output: "regrubmaH"
+console.log(transformString("Pizza")); // Output: "80 105 122 122 97"
+console.log(transformString("Chocolate Chip Cookie")); // Output: "eikooCpihCetalocohC"
+```
+
+##### Run the stringTransform.js by the following steps:
+
+i. open terminal in your code editor within `Challenges` folder
+```linux
+    node stringTransform.js
+```
