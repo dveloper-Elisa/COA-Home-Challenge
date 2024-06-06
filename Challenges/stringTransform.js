@@ -1,5 +1,5 @@
 /**
- * Transforms a string based on specified rules.
+ * This funtion transforms a string based on rules specified.
  * @param {string} str - The input string.
  * @return {string} - The transformed string.
  */
@@ -13,7 +13,7 @@ function transformString(str) {
     } else if (length % 5 === 0) {
         return str.split('').map(char => char.charCodeAt(0)).join(' ');
     } else {
-        return str;
+        return str; 
     }
 }
 
